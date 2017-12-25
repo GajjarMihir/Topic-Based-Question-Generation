@@ -1,6 +1,6 @@
 # Preprocessing the data.
 
-import json_file			# For the json data.
+import json_file				# For the json data.
 import gzip					# Using gzip because the file is in .gz format.
 import os					# For listing all the files from the directory.
 
