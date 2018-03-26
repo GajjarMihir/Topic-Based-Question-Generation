@@ -1,6 +1,6 @@
 import json
 
-path = '/media/mihir/Academics/Btech Project/IIT_Bombay/Filtered_Data/'		# The path containing the data.
+path = 'Add the path to the data here'		# The path containing the filtered data.
 
 # Reading the filtered questions.
 with open(path + 'QA_Video_Games_questions.json') as json_file:  
