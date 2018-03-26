@@ -10,7 +10,7 @@ from nltk.tokenize import RegexpTokenizer
 stop_words = set(stopwords.words('english'))
 tokenizer = RegexpTokenizer(r'\w+')
 
-path = '/media/mihir/Academics/Btech Project/IIT_Bombay/Data/'		# The path containing the data.
+path = 'Add the path to the data here'		# The path containing the data.
 
 files = os.listdir(path)	# stores all the files in the directory from the path into a list.
 
@@ -45,9 +45,9 @@ for i in range(len(files)):  # Iterating through all the files.
 		Answers = []											# Resetting the Answers list.
 
 	print "Data filtered for " + files[i]						# displays the files for which the filtering is completed.
-	with open('/media/mihir/Academics/Btech Project/IIT_Bombay/Filtered_Data/' + files[i][:-8] + '_questions.json', 'w') as outfile:
+	with open('Add the path to the data here' + files[i][:-8] + '_questions.json', 'w') as outfile:
 		json.dump(Questions, outfile)
-	with open('/media/mihir/Academics/Btech Project/IIT_Bombay/Filtered_Data/' + files[i][:-8] + '_answers.json', 'w') as outfile:
+	with open('/Add the path to the data here' + files[i][:-8] + '_answers.json', 'w') as outfile:
 		json.dump(All_Answers, outfile)
 
 	Questions = []												# Resetting the Questions list.
