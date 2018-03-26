@@ -10,7 +10,7 @@ from nltk.tokenize import RegexpTokenizer		# for tokenizing the sentence and rem
 from numpy import asarray						# For doing vectorized operations.
 from sklearn.metrics.pairwise import cosine_similarity # In-built function for calculating the cosine similarity.
 
-path = '/media/mihir/Academics/Btech Project/IIT_Bombay/Filtered_Data/'		# The path containing the data.
+path = 'Add the path to the data here'		# The path containing the filtered data.
 
 # Reading the filtered questions and answers.
 with open(path + 'QA_Video_Games_questions.json') as json_file:  
